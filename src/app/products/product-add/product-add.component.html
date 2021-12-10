@@ -1,0 +1,29 @@
+<h3>Add Product</h3>
+
+<form class="form-inline mb-4">
+  <form [formGroup]="productForm" (submit)="createProduct()" class="form-inline mb-4">
+    <label class="sr-only" for="Title">Title</label>
+    <div class="input-group mb-2 mr-sm-2">
+      <input type="text" class="form-control" formControlName="title" placeholder="title">
+    </div>
+
+    <label class="sr-only" for="Link">Link</label>
+    <div class="input-group mb-2 mr-sm-2">
+      <input type="text" class="form-control" formControlName="link" placeholder="Link">
+    </div>
+
+    <label class="sr-only" for="Price">Price</label>
+    <div class="input-group mb-2 mr-sm-2">
+      <input type="text" class="form-control" formControlName="price" placeholder="Price">
+    </div>
+
+    <label class="sr-only" for="gender">Gender</label>
+    <div class="input-group mb-2 mr-sm-2">
+      <select formControlName="gender" class="form-control">
+        <option>male</option>
+        <option>female</option>
+        <option>unisex</option>
+      </select>
+    </div>
+    <button type="submit" class="btn btn-primary mb-2">Add Product</button>
+  </form>

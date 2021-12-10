@@ -1,0 +1,26 @@
+{
+    "products": [
+        {
+            "title": "The Black Google Tee",
+            "link": "http://my.site.com/blacktee",
+            "price": "21.99 USD",
+            "gender": "male",
+            "id":1
+        },
+        {
+            "title": "Google Tee Green",
+            "link": "http://my.site.com/greentee",
+            "price": "25.99 USD",
+            "gender": "female",
+            "id":2
+        },
+        {
+            "title": "Google Twill Cap",
+            "link": "http://my.site.com/blacktee",
+            "price": "11.99 USD",
+            "gender": "unisex",
+            "id":3
+        }
+
+    ]
+}
