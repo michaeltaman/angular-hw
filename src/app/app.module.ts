@@ -32,6 +32,7 @@ import { NavbarComponent } from "./navbar/navbar.component";
     HttpClientModule,
     AppRoutingModule
   ],
+
   providers: [{ provide: RouterStateSerializer, useClass: CustomSerializer }],
   bootstrap: [AppComponent]
 })
