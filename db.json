@@ -25,22 +25,15 @@
       "title": "BBB",
       "link": "bbb",
       "price": "13.99",
-      "gender": "female",
+      "gender": "unisex",
       "id": 4
     },
     {
       "title": "FFF",
       "link": "fff",
       "price": "12.55 USD",
-      "gender": "unisex",
+      "gender": "male",
       "id": 6
-    },
-    {
-      "title": "ZZZZ",
-      "link": "xxxx",
-      "price": "32.00",
-      "gender": "female",
-      "id": 7
     },
     {
       "title": "Michael",
