@@ -19,6 +19,7 @@ Run `npm run start` to launch the project. Simultaneously with the client part, 
 ## Running unit tests
 
 Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Open the file coverage/index.html in the browser to see which parts of the project are covered by the tests.
 
 ## Running end-to-end tests
 
